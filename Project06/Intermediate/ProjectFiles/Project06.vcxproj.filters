@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Project06Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +30,12 @@
     <Filter Include="Source\Project06">
       <UniqueIdentifier>{49A9F85E-F431-34A8-B537-56D589822593}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project06\MoveAtcor.cpp">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\MoveAtcor.h">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
     <None Include="..\..\Source\Project06\Project06.Build.cs">
       <Filter>Source\Project06</Filter>
     </None>
@@ -36,6 +43,12 @@
       <Filter>Source\Project06</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project06\Project06.h">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\RotationActor.cpp">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\RotationActor.h">
       <Filter>Source\Project06</Filter>
     </ClCompile>
   </ItemGroup>

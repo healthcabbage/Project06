@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project06ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcdf66e2b18d681dfd7f5a07c204d8db6f9059c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14c4e7a3a949bea990fd27c2b64eee1aa4776af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project06ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project06ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
