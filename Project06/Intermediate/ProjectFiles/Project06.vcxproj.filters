@@ -30,6 +30,12 @@
     <Filter Include="Source\Project06">
       <UniqueIdentifier>{49A9F85E-F431-34A8-B537-56D589822593}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project06\FadeActor.cpp">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\FadeActor.h">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project06\MoveAtcor.cpp">
       <Filter>Source\Project06</Filter>
     </ClCompile>
@@ -49,6 +55,12 @@
       <Filter>Source\Project06</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project06\RotationActor.h">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\SpecialMoveActor.cpp">
+      <Filter>Source\Project06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project06\SpecialMoveActor.h">
       <Filter>Source\Project06</Filter>
     </ClCompile>
   </ItemGroup>

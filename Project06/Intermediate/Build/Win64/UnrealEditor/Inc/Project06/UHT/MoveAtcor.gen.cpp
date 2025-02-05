@@ -77,11 +77,21 @@ struct Z_Construct_UClass_AMoveAtcor_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ischeckY_MetaData[] = {
 		{ "Category", "Plaform Settings" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "//\xef\xbf\xbd\xc2\xbf\xef\xbf\xbd \xc3\xbc\xc5\xa9\n" },
+		{ "Comment", "//z\xef\xbf\xbd\xef\xbf\xbd \xc3\xbc\xc5\xa9\n" },
 #endif
 		{ "ModuleRelativePath", "MoveAtcor.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "\xef\xbf\xbd\xc2\xbf\xef\xbf\xbd \xc3\xbc\xc5\xa9" },
+		{ "ToolTip", "z\xef\xbf\xbd\xef\xbf\xbd \xc3\xbc\xc5\xa9" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ischeckZ_MetaData[] = {
+		{ "Category", "Plaform Settings" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//y\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xcc\xb5\xef\xbf\xbd \xc3\xbc\xc5\xa9\n" },
+#endif
+		{ "ModuleRelativePath", "MoveAtcor.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "y\xef\xbf\xbd\xef\xbf\xbd \xef\xbf\xbd\xcc\xb5\xef\xbf\xbd \xc3\xbc\xc5\xa9" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StaticMove_MetaData[] = {
@@ -97,6 +107,8 @@ struct Z_Construct_UClass_AMoveAtcor_Statics
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_ischeckX;
 	static void NewProp_ischeckY_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_ischeckY;
+	static void NewProp_ischeckZ_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ischeckZ;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_StaticMove;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
@@ -118,6 +130,11 @@ void Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckY_SetBit(void* Obj)
 	((AMoveAtcor*)Obj)->ischeckY = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckY = { "ischeckY", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AMoveAtcor), &Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckY_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ischeckY_MetaData), NewProp_ischeckY_MetaData) };
+void Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckZ_SetBit(void* Obj)
+{
+	((AMoveAtcor*)Obj)->ischeckZ = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckZ = { "ischeckZ", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AMoveAtcor), &Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckZ_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ischeckZ_MetaData), NewProp_ischeckZ_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMoveAtcor_Statics::NewProp_StaticMove = { "StaticMove", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMoveAtcor, StaticMove), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StaticMove_MetaData), NewProp_StaticMove_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMoveAtcor_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_StartLocation,
@@ -125,6 +142,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMoveAtco
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_MoveDistance,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckX,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckY,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_ischeckZ,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMoveAtcor_Statics::NewProp_StaticMove,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMoveAtcor_Statics::PropPointers) < 2048);
@@ -168,10 +186,10 @@ AMoveAtcor::~AMoveAtcor() {}
 struct Z_CompiledInDeferFile_FID_Project06_Source_Project06_MoveAtcor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMoveAtcor, AMoveAtcor::StaticClass, TEXT("AMoveAtcor"), &Z_Registration_Info_UClass_AMoveAtcor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMoveAtcor), 106586279U) },
+		{ Z_Construct_UClass_AMoveAtcor, AMoveAtcor::StaticClass, TEXT("AMoveAtcor"), &Z_Registration_Info_UClass_AMoveAtcor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMoveAtcor), 1196512293U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project06_Source_Project06_MoveAtcor_h_1739855307(TEXT("/Script/Project06"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project06_Source_Project06_MoveAtcor_h_1827818868(TEXT("/Script/Project06"),
 	Z_CompiledInDeferFile_FID_Project06_Source_Project06_MoveAtcor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project06_Source_Project06_MoveAtcor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

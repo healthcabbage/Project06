@@ -41,6 +41,10 @@ void AMoveAtcor::Tick(float DeltaTime)
 	{
 		MoveDirection = FVector(0.0f, 1.0f, 0.0f);
 	}
+	else if (ischeckZ)
+	{
+		MoveDirection = FVector(0.0f, 0.0f, 1.0f);
+	}
 
 	float MoveStep = MoveSpeed * DeltaTime;
 	FVector NewLocation = CurrentLocation + (bMovingFoward ? MoveDirection * MoveStep : -MoveDirection * MoveStep);

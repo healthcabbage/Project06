@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\project06\\project06\\intermediate\\build\\win64\\unrealeditor\\inc\\project06\\uht\\specialmoveactor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\project06\\project06\\intermediate\\build\\win64\\x64\\project06editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\github\\project06\\project06\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\project06\\definitions.project06.h",
+            "d:\\github\\project06\\project06\\source\\project06\\specialmoveactor.h",
+            "d:\\github\\project06\\project06\\intermediate\\build\\win64\\unrealeditor\\inc\\project06\\uht\\specialmoveactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

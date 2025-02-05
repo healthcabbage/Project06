@@ -28,9 +28,11 @@ protected:
 	bool bMovingFoward;	//x, y축 체크
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Plaform Settings")
-	bool ischeckX;	//좌우 체크
+	bool ischeckX;	//z축 체크
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Plaform Settings")
 	bool ischeckY;	//y축 이동 체크
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Plaform Settings")
+	bool ischeckZ;	//z축 이동 체크
 
 	USceneComponent* SceneRoot;
 	UPROPERTY(EditAnywhere, Category = "Platform Settings")
